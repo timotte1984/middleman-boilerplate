@@ -1,0 +1,46 @@
+/* -------------------------------------
+ * Colors & Fonts
+ * ------------------------------------- */
+$cardsession-bg: $gray-light;
+
+/* -------------------------------------
+ * SCSS code
+ * ------------------------------------- */
+#banner {
+  background-image: image-url("bg-green.jpeg");
+  color: white;
+  padding: 150px 0;
+  background-size: cover;
+  height: 650px;
+  h1 {
+  font-size: 50px;
+  color: white;
+  filter: brightness(100%);
+  letter-spacing: 7px;
+	}
+  p {
+  font-size: 25px;
+  font-weight: 100;
+  filter: brightness(100%);
+	}
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #141414;
+}
+.card{
+  padding: 10px;
+  font-weight: 300;
+}
+.card h2{
+  font-size: 20px;
+}
+.padded {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+.blue-bg {
+  background: $cardsession-bg;
+  color: white;
+}
