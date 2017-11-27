@@ -1,10 +1,10 @@
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
-$navbar-color: $white;
-$navbar-hover-color: $green;
+$navbar-color: black;
+$navbar-hover-color: $yellow;
 $navbar-font-family: $header-font;
-$navbar-bg: $black;
+$navbar-bg: white;
 
 /* -------------------------------------
  * Box model
@@ -19,8 +19,8 @@ $navbar-border-bottom-color: grey;
  * Navbar button
  * ------------------------------------- */
 $navbar-btn-height: 40px;
-$navbar-btn-bg: $green;
-$navbar-btn-color: $white;
+$navbar-btn-bg: lightgrey;
+$navbar-btn-color: white;
 $navbar-btn-horizontal-padding: 10px;
 $navbar-btn-radius: 2px;
 
@@ -28,7 +28,7 @@ $navbar-btn-radius: 2px;
  * Navbar profile picture
  * ------------------------------------- */
 $navbar-profile-radius: 50%;
-$navbar-profile-border-color: $white;
+$navbar-profile-border-color: white;
 $navbar-profile-border-width: 2px;
 
 /* -------------------------------------
@@ -85,7 +85,7 @@ $navbar-profile-border-width: 2px;
     background-color: $navbar-btn-bg;
     font-size: 12px;
     &:hover{
-      background-color: darken($navbar-btn-bg, 20%);
+      background-color: darken($navbar-btn-bg, 30%);
     }
   }
 
